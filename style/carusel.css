@@ -1,0 +1,108 @@
+.carousel__wrapper {
+  position: relative;
+  min-height: 500px;
+}
+.corousel__item {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+.filter {
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.corousel__item-1:hover .filter,
+.corousel__item-2:hover .filter,
+.corousel__item-3:hover .filter {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+[id^="target__item"] {
+  display: none;
+}
+.corousel__item-1 {
+  background-color: #10c9c3;
+  z-index: 2;
+  opacity: 1;
+}
+.corousel__item-2 {
+  background-color: #22cf22;
+}
+.corousel__item-3 {
+  background-color: #a617d1;
+}
+*:target ~ .corousel__item-1 {
+  opacity: 0;
+}
+#target__item-1:target ~ .corousel__item-1 {
+  opacity: 1;
+}
+#target__item-2:target ~ .corousel__item-2,
+#target__item-3:target ~ .corousel__item-3 {
+  z-index: 3;
+  opacity: 1;
+}
+.corousel__text-box {
+  width: 70%;
+  z-index: 5;
+  color: white;
+  text-align: center;
+}
+.corousel__texte-lement {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.arousel__texte-sign {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.carousel__dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6%;
+  position: absolute;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  bottom: 42px;
+  left: 47%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.carousel__dots .carousel__dots_dot {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #b0e8e6;
+  border-radius: 50%;
+}
+.carousel__dots .carousel__dots_dot-active {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+}
