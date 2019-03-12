@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+		<link rel="stylesheet" href="style/normalize.css">
+		<link rel="stylesheet" href="style/contact_us.css">
+	</head>
+	<body>
+		<section class="contact_us">
+			<h2>Need a Project?</h2>
+			<p>Let us know what you're looking for in an agency. We'll take a look and see
+			if this could be the start of something beautiful.</p>
+			<form class="contact_us-form" action="#">
+				<input class="contact_us-form_input contact_us-form_input-name" type="text" name="name" placeholder="Your Name" required>
+				<input class="contact_us-form_input contact_us-form_input-email" type="email" name="email" placeholder="Your Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+				<input class="contact_us-form_input contact_us-form_input-text" type="text" name="title" placeholder="Your Title">
+				<textarea class="contact_us-form_input contact_us-form_input-textarea" name="comment" placeholder="Your Comment" required></textarea>
+				<input type="submit" class="contact_us-form_input-submit" value="send message">
+			</form>
+		</section>
+	</body>
 </html>
