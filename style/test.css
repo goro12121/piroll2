@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cont_block_two_hhh {
+    max-width: 1366px;
+}
+
+.block_two_hhh {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about_hhh {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_hhh h2 {
+    padding-top: 100px;
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.about_hhh p {
+    padding-top: 41px;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    padding-bottom: 37px;
+    display: block;
+    margin: 0 15%;
+}
+
+.about_bc_hhh {
+    background: url('../img/signature.png') no-repeat center;
+    width: 100%;
+    height: 100px;
+}
+.bg_skill_img_hhh {
+    background: url(../img/SLIDER-Python.jpg) no-repeat;
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    box-shadow:0px 0px 15px 8px rgba(26, 44, 126, 0.404);
+
+}
+.skills_item {
+    border-bottom: 5px solid transparent;
+    border-image-slice: 1;
+}
+.set_form_hhh {
+width: 90%;
+}
+.set_form_hhh div {
+    height: 70px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    padding-bottom: 5px;
+    }
+.gradient_1_hhh {
+    border-image:  linear-gradient(90deg, #10c9c3 0%, #10c9c3 75%, #d8d8d8 78%); 
+}
+.gradient_2_hhh {
+    border-image:  linear-gradient(90deg, #10c9c3 0%, #10c9c3 90%, #d8d8d8 93%); 
+}
+.gradient_3_hhh {
+    border-image:  linear-gradient(90deg, #10c9c3 0%, #10c9c3 60%, #d8d8d8 63%); 
+}
+
+.gradient_bottom {
+
+}
+
+.skills_hhh {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+
+}
+.skills_form_hhh {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.skills_image_hhh {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+
+}
