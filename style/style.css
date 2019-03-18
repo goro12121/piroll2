@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: 'Montserrat';
     src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
@@ -166,3 +167,39 @@ header {
     height: 54px;
     background-color: #10c9c3;
 }
+=======
+
+.basis{margin: 0 auto;
+height: 100%;
+width: 1363px;
+min-width:360px;}
+.chapter{width: 100%;
+min-height: 930px;
+display: flex;
+flex-direction: column;
+justify-content: center;}
+.chapter-name{font-family: Montserrat;
+    color:  #191919;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+    align-self: center;
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 0px;}
+.chapter-text{font-family: NunitoSans;
+    color:  #787878;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 31px;
+margin-bottom:57px;
+width: 500px;
+min-height: 38px;
+align-self: center;}
+.chapter-video{object-fit: inherit;
+margin-left: 98px;
+margin-bottom: 100px}
+>>>>>>> origin/Asia
