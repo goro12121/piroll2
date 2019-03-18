@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e9e9e9;
+    width: 1366px;
+    height: 5797px;
+
+}
+
+.container {
+    width: 1170px;
+    height: 5797px;
+}
+
+footer {
+    background-color: #141414;
+    width: 1366px;
+    height: 284px;
+
+}
+
+.footer-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding-left: 98px;
+    padding-right: 131px;
+    padding-top: 100px;
+    width: 1170px;
+    height: 83px;
+}
+
+.text-main {
+    text-align: left;
+}
+
+.text-main h6 {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 27px;
+
+}
+
+.text-main p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Nunito Sans';
+    color: #bcbcbc;
+}
+
+.text-contact {
+    margin-left: 246px;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+/* .text-contact p {
+} */
+
+/* .text-contact p a {
+    color: #bcbcbc;
+    text-decoration: none;
+    
+} */
+
+.footer-box a {
+    color: #bcbcbc;
+    text-decoration: none;
+}
+.footer-box a:active {
+    color: #b0c1e6;
+}
+.footer-box a:hover {
+    color: #ebe8e8;
+    font-weight: bolder;
+}
+.menu-about {
+    margin-left: 145px;
+    font-family: 'Nunito Sans';
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+/* .menu-about a{
+    color: #bcbcbc;
+    text-decoration: none;
+} */
+
+.menu-about p {}
+
+.menu-contact {
+    margin-left: 55px;
+    font-family: 'Nunito Sans';
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.menu-contact p {}
+
+.join-us {
+    margin-left: 135px;
+    font-family: 'Nunito Sans';
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+@media all and (max-width: 800px) {
+    .footer-box {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .footer-box {
+        flex-direction: column;
+    }
+}
